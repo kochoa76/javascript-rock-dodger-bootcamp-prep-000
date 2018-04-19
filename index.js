@@ -89,7 +89,7 @@ function createRock(x) {
      rock.style.top = `${top += 2}`
      
      if checkCollision(rock)) {
-       return endGame
+       return endGame()
      }
 
     /**
