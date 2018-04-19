@@ -98,7 +98,12 @@ function createRock(x) {
       rock.remove()
     }
   }
+  window.requestAnimationFrame(moveRock)
 
+  ROCKS.push(rock)
+
+  return rock
+}
 
     /**
      * Otherwise, if the rock hasn't reached the bottom of
